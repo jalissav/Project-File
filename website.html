@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignmentd</title>
+<style>
+*{
+    box-sizing: border-box;
+    padding:10px;
+    margin:3px;
+}
+.page {
+    overflow: hidden;
+    background-color: oklch(45.302% 0.15527 25.979 / 0.876);
+}
+.menu {
+    height:350px;
+    background-color: hsl(35, 34%, 39%);
+    text-align: center;
+}
+.nav li{
+    display:inline-block;
+    text-align: center;
+    background-color: hsl(0, 76%, 65%);
+}
+
+.content{
+  overflow: hidden;
+    height: 600px;
+    width: 100%;
+    background-color: hsl(0, 36%, 34%);
+    flex-wrap: wrap;
+    display: inline-flex;
+    justify-content: center;
+    
+}
+.column {
+    float: left;
+    width:30%;
+    height:100px;
+    padding:2px;
+}
+
+   
+</style>
+</head>
+<body>
+    <div class="page">
+    <div class="menu">
+        <h1><span style= "color:#7c2525; text-align: center;">Maria's Café</span></h1>
+        <h3>For all of your caffeinated needs...</h3>
+        <img src="img/coffee.jpg" height="170" width="740" alt="Image">
+
+
+        <ul class="nav">
+            <li><a href=#Link1>Home</a></li>
+            <li><a href=#Link2>About Us</a></li>
+            <li><a href=#Link3>Giving Back</a></li>
+        </ul>
+        </div>
+    <div class="sidebar">
+    <p><strong><span style="color: white;">Here at Maria's Café, we have just what you need to start your day off right.</span></strong></p>
+    <p><strong><span style="color: white;">From lattes, bagels, and even hot chocolate- stop in for a bite you wont forget.</span></strong></p>
+    </div>
+
+    <div class="content">
+ <h2><span style="color: white;">Explore the Menu!</span></h2>
+ 
+<div class="content">
+    <div class="column">
+    <img src="img/frappe.jpg" height="100" width= "300" alt="Image">
+    <h3><span style= "color: white">Iced Bevs</span></h3>
+<div class="column">
+    <img src="img/baked.webp" height="100" width= "300" alt="Image">
+    <h3><span style= "color: white;"> Baked Goodies</span></h3>
+<div class="column">
+    <img src="img/hotdrink.jpg" height = "100" width= "300" alt="Image">
+    <h3><span style="color: white;">Hot Beverages</span></h3>
+</div>
+
+
+
+</div>
+
+</body>
+</html>
